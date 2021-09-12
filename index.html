@@ -29,7 +29,6 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -70,7 +69,7 @@
                             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/weather.png" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/weather1.png" alt="..." />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
@@ -146,77 +145,8 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+
+
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -230,6 +160,11 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/kyle--baker/"><i class="fab fa-fw fa-linkedin-in"></i></a>
                     </div>
                     <!-- Footer About Text-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Contact</h4>
+                        <p>Phone: 941-416-8889</p>
+                        <p>Email: kylebaker616@gmail.com</p>
+                    </div>
 
                 </div>
             </div>
@@ -254,7 +189,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/weather.png" alt="..." />
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/weather1.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Real time weather application utilizing the OpenWeather free API, built entirely with ReactJS.</p>
                                     <a href="https://kylebaker616.github.io/React-weather-app/">
@@ -262,6 +197,11 @@
                                         <i class="fas fa-times fa-link"></i>
                                         View Live App
                                     </button>
+                                    <a href="https://github.com/kylebaker616/React-weather-app">
+                                        <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                            <i class="fab fa-github"></i>
+                                            Repository
+                                        </button>
                                     </a>
                                 </div>
                             </div>
@@ -290,11 +230,31 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cinebuster.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Cinebuster is a full stack E-Commerce application. This project is built with React and React-Bootstrap for the front end, and MongoDB and ExpressJS on the back end. Stripe payment is fully integrated and accepted.</p>
-                                    <button class="btn btn-primary" href="#!" data-bs-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="mb-4">Cinebuster is a full stack E-Commerce application. This project is built with React and React-Bootstrap for the front end, and MongoDB and ExpressJS on the back end. Stripe payment is fully integrated and accepted.
+                                        <br>
+                                        Log in credentials:
+                                        <br>
+                                        email: <strong>zz@zz</strong>
+                                        <br>
+                                        password: <strong>zz</strong>
+                                    </p>
+                                    <a href="https://github.com/Project-3-junebugs-eagle/project-3-client">
+                                            <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                                <i class="fab fa-github"></i>
+                                                Front End Repository
+                                            </button>
+                                            <a href="https://project-3-junebugs-eagle.github.io/project-3-client/">
+                                                <button class="btn btn-primary" href="https://project-3-junebugs-eagle.github.io/project-3-client/"
+                                                    data-bs-dismiss="modal">
+                                                    <i class="fas fa-times fa-link"></i>
+                                                    View Live App
+                                                </button>
+                                            <a href="https://github.com/Project-3-junebugs-eagle/Cine-Buster">
+                                                <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                                    <i class="fab fa-github"></i>
+                                                    Back End Repository
+                                                </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -322,13 +282,29 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/issueTracker.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">A full stack CRUD application built with jQuery, JS, HTML, CSS on the front end, and MongoDB and ExpressJS on the back end. Full CRUD functionality and user authentication and authorization. </p>
+                                    <p class="mb-4">A full stack CRUD application built with jQuery, JS, HTML, CSS on the front end, and MongoDB and ExpressJS on the back end. Full CRUD functionality and user authentication and authorization. <br>
+                                    Log in credentials:
+                                    <br>
+                                    email: <strong>zz@zz</strong>
+                                    <br>
+                                    password: <strong>zz</strong></p>
+                                    <a href="https://github.com/kylebaker616/Issue-tracker-client">
+                                        <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                            <i class="fab fa-github"></i>
+                                            Front End Repository
+                                        </button>
                                     <a href="https://kylebaker616.github.io/Issue-tracker-client/">
                                         <button class="btn btn-primary" href="https://kylebaker616.github.io/Issue-tracker-client/" data-bs-dismiss="modal">
                                             <i class="fas fa-times fa-link"></i>
                                             View Live App
                                         </button>
                                     </a>
+                                        <a href="https://github.com/kylebaker616/Issue-tracker">
+                                            <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                                <i class="fab fa-github"></i>
+                                                Back End Repository
+                                            </button>
+                                        </a>
                                 </div>
                             </div>
                         </div>
@@ -356,12 +332,27 @@
                                     <!-- Portfolio Modal - Image-->
                                     <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ticTac.png" alt="..." />
                                     <!-- Portfolio Modal - Text-->
+                                    <p>A front-end two player tic-tac-toe application using vanilla JS, jQuery, HTML, and CSS. API calls made to an outside API for authentication. Game play is entirely conducted through DOM manipulation.
+                                        <br>
+                                        Log in credentials:
+                                        <br>
+                                        email: <strong>zz@zz</strong>
+                                        <br>
+                                        password: <strong>zz</strong>
+                                    </p>
                                 <a href="https://kylebaker616.github.io/tic-tac-toe-client/">
                                     <button class="btn btn-primary" href="https://kylebaker616.github.io/tic-tac-toe-client/" data-bs-dismiss="modal">
                                         <i class="fas fa-times fa-link"></i>
                                         View Live App
                                     </button>
                                 </a>
+                                <a href="https://github.com/kylebaker616/tic-tac-toe-client">
+                                    <button class="btn btn-primary" href="https://kylebaker616.github.io/React-weather-app/" data-bs-dismiss="modal">
+                                        <i class="fab fa-github"></i>
+                                        Repository
+                                    </button>
+                                </a>
+
                                 </div>
                             </div>
                         </div>
